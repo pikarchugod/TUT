@@ -1,0 +1,19 @@
+// _typography.scss
+// 字體設定
+$font-family-base: "Noto Sans TC" !default; // 主要字體
+$font-family-sans-serif: $font-family-base !default;
+
+// 字體大小
+$font-size-base: 1rem !default;        // body 字體大小
+$font-size-lg: 1.125rem !default;      // body-large
+$font-size-sm: 0.875rem !default;      // body-small
+$h1-font-size: 3.25rem !default;       // h1 字體大小
+$h2-font-size: 2rem !default;          // h2 字體大小
+$h3-font-size: 1.375rem !default;      // h3 字體大小
+$h4-font-size: 1.25rem !default;       // h4 字體大小
+$h5-font-size: 1.125rem !default;      // h5 字體大小
+$h6-font-size: 1rem !default;          // h6 字體大小
+
+// 字體粗細
+$font-weight-bold: 700 !default;
+$font-weight-normal: 400 !default;

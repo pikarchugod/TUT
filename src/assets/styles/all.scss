@@ -1,0 +1,20 @@
+// 配置與工具
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./variables.scss"; // 自訂變數
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+// 布局與結構
+@import "../../../node_modules/bootstrap/scss/reboot";
+@import "../../../node_modules/bootstrap/scss/containers";
+@import "../../../node_modules/bootstrap/scss/grid";
+
+// 元件
+@import "../../../node_modules/bootstrap/scss/navbar";
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import "../../../node_modules/bootstrap/scss/card";
+@import "../../../node_modules/bootstrap/scss/forms";
+@import "../../../node_modules/bootstrap/scss/pagination";
+@import "../../../node_modules/bootstrap/scss/carousel";
+
+// 工具模組
+@import "../../../node_modules/bootstrap/scss/utilities";
