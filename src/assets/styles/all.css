@@ -1,8 +1,38 @@
 @charset "UTF-8";
-/*header SCSS 12345 */
-.header .search-bar {
+.header {
   display: flex;
-  align-items: center;
+  justify-content: space-between; /* 左、中、右自動分布 */
+  align-items: center; /* 元素垂直置中 */
+  padding: 8px 72px; /* 上下 8px，左右 72px */
+  background-color: #fff; /* 預設白色背景 */
+  box-shadow: 0 4px 36px 0 rgba(0, 0, 0, 0.08); /* 使用自定義的 Bootstrap 陰影變數 */
+}
+.header .search-bar {
+  width: 320px; /* 固定寬度 */
+  height: 42px; /* 固定高度 */
+  display: flex; /* 使用 FlexBox 內部排列 */
+  border-radius: 20px; /* 圓角設計 */
+  border: 1px solid gray; /* 外框 */
+  background-color: #fff; /* 背景色 */
+  overflow: hidden; /* 確保內部不超出 */
+}
+.header .input {
+  flex-grow: 1; /* 填滿剩餘空間 */
+  max-width: 250px; /* 文字最大空間 */
+  border: none; /* 去掉內框 */
+}
+.header .glass {
+  background-color: white;
+  border: none;
+  display: flex;
+}
+.header .user-controls {
+  gap: 1rem;
+}
+.header .user-controls button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 /*!

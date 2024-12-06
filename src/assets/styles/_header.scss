@@ -1,8 +1,42 @@
-/*header SCSS 12345 */
-
 .header {
+  display: flex;
+  justify-content: space-between; /* 左、中、右自動分布 */
+  align-items: center; /* 元素垂直置中 */
+  padding: 8px 72px; /* 上下 8px，左右 72px */
+  background-color: #fff; /* 預設白色背景 */
+  box-shadow: $box-shadow; /* 使用自定義的 Bootstrap 陰影變數 */
+
   .search-bar {
+    width: 320px; /* 固定寬度 */
+    height: 42px; /* 固定高度 */
+    display: flex; /* 使用 FlexBox 內部排列 */
+    //align-items: center; /* 垂直置中 */
+    //justify-content: space-between; /* 水平分佈 */
+    border-radius: 20px; /* 圓角設計 */
+    border: 1px solid gray; /* 外框 */
+    background-color: #fff; /* 背景色 */
+    overflow: hidden; /* 確保內部不超出 */
+  }
+
+  .input {  
+    flex-grow: 1; /* 填滿剩餘空間 */
+    max-width: 250px; /* 文字最大空間 */
+    border: none; /* 去掉內框 */
+  }
+  
+  .glass {
+    background-color: white;
+    border: none;
     display: flex;
-    align-items: center;
+  }
+  .user-controls {
+  //gap: 16px; // 按鈕間距，使用自定義變數
+  gap: map-get($spacers, 3);
+
+    button {
+    background: transparent; // 背景透明
+    border: none; // 無邊框
+    cursor: pointer; // 鼠標移上顯示點擊手勢
+  }
   }
 }
