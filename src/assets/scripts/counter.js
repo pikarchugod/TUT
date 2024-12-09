@@ -1,3 +1,4 @@
+console.log("counter 已成功匯入！");
 export function setupCounter(element) {
   let counter = 0
   const setCounter = (count) => {

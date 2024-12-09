@@ -1,0 +1,36 @@
+.carousel {
+  max-width: 1320px;    /* 設定最大寬度 */
+  margin: 0 auto;       /* 讓 Carousel 水平置中 */
+  margin-top: 20px; /* 根據需求調整距離 */
+}
+
+
+.carousel-item img {
+  height: 500px;        /* 固定高度，根據需求調整 */
+  object-fit: cover;    /* 保持圖片比例並填滿容器 */
+}
+
+/* 縮小按鈕內的 SVG 圖示 */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;       /* 調整 SVG 寬度 */
+  height: 20px;      /* 調整 SVG 高度 */
+  background-color:$primary;
+  border-radius: 50%;
+  background-size: contain; /* 確保 SVG 圖示完整顯示 */
+}
+
+
+/* 修改指示器按鈕的背景顏色 */
+.carousel-indicators button {
+  background-color: #007bff!important; /* 設定背景顏色 */
+  width: 12px;               /* 指示器寬度 */
+  height: 12px;              /* 指示器高度 */
+  border-radius: 50%;        /* 圓形指示器 */
+  opacity: 1;                /* 設定完全不透明，才會顯示背景顏色 */
+}
+
+/* 修改當前選中指示器的顏色 */
+.carousel-indicators .active {
+  background-color: #ff4500!important; /* 當前指示器的背景顏色，例如橘色 */
+}
