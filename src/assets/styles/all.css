@@ -111,6 +111,40 @@
   padding: 0.3em 1em;
 }
 
+.fresh-comments {
+  position: relative;
+}
+.fresh-comments .novel-title {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fresh-comments .btn-warning {
+  font-size: 0.9rem;
+}
+.fresh-comments .user-avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.fresh-comments .card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.fresh-comments .card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+.fresh-comments .card .btn {
+  font-size: 0.85rem;
+  padding: 0.4rem 1rem;
+}
+.fresh-comments .position-absolute {
+  top: 0;
+  right: 0;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
