@@ -1,0 +1,44 @@
+// 書籍卡片樣式
+.card {
+  border-radius: 12px;     // 卡片圓角
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); // 輕微陰影
+}
+  
+  // 狀態標籤樣式
+  .badge {
+    padding: 0.3em 0.6em;
+  }
+  
+  // 文字截斷樣式
+  
+  .card-text {
+
+    max-width: 100%;
+    overflow: hidden;        // 超出部分隱藏
+    text-overflow: ellipsis; // 超出顯示省略號
+  }
+
+  .book-status {
+    font-size: 0.875rem;       // 設定按鈕文字大小（約 14px）
+    font-weight: bold;         // 加粗文字
+    padding: 0.3em 0.6em;      // 設定按鈕內邊距
+    letter-spacing: 0.02em;    // 微調字間距
+    border-radius: 0.25rem;    // 設定輕微圓角
+  }
+  
+  .book-cover {
+    height: 100%;            // 確保圖片填滿容器高度
+    object-fit: cover;       // 保持圖片比例並裁切超出部分
+    border-radius: 0.5rem;   // 保持圓角，根據需求調整大小
+  }
+  
+  
+  // 互動按鈕樣式
+  .btn-primary {
+    background-color: #e0f0ff;
+    color: #0d6efd;          // 按鈕文字藍色
+    border: none;
+    padding: 0.3em 1em;
+  }
+  
+  
