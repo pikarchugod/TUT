@@ -99,7 +99,8 @@
 }
 
 .book-cover {
-  height: 100%;
+  height: 147px !important;
+  width: 104px !important;
   object-fit: cover;
   border-radius: 0.5rem;
 }
@@ -113,12 +114,6 @@
 
 .fresh-comments {
   position: relative;
-}
-.fresh-comments .novel-title {
-  max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .fresh-comments .btn-warning {
   font-size: 0.9rem;
