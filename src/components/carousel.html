@@ -1,0 +1,86 @@
+<!-- Carousel 主容器，設置為輪播圖並啟用滑動效果和自動播放 -->
+<div
+  id="carouselExample"
+  class="carousel slide"
+  data-bs-ride="carousel"
+  data-bs-interval="2000"
+>
+  <!-- 指示器 -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <!-- 輪播項目容器 -->
+  <div class="carousel-inner">
+    <!-- 第一張輪播項目，預設顯示的項目需加上 .active -->
+    <div class="carousel-item active">
+      <img
+        src="./src/assets/images/carousel/Slider1.png"
+        class="d-block w-100"
+        alt="第一張圖片"
+      />
+    </div>
+
+    <!-- 第二張輪播項目 -->
+    <div class="carousel-item">
+      <img
+        src="./src/assets/images/carousel/Slider2.png"
+        class="d-block w-100"
+        alt="第二張圖片"
+      />
+    </div>
+
+    <!-- 第三張輪播項目 -->
+    <div class="carousel-item">
+      <img
+        src="./src/assets/images/carousel/Slider3.png"
+        class="d-block w-100"
+        alt="第三張圖片"
+      />
+    </div>
+  </div>
+
+  <!-- 前一張按鈕 -->
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExample"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <!-- 按鈕圖示 -->
+    <span class="visually-hidden">Previous</span>
+    <!-- 提供給無法看到圖示的使用者 -->
+  </button>
+
+  <!-- 下一張按鈕 -->
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExample"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <!-- 按鈕圖示 -->
+    <span class="visually-hidden">Next</span>
+    <!-- 提供給無法看到圖示的使用者 -->
+  </button>
+</div>
