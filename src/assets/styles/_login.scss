@@ -1,0 +1,24 @@
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .btn-success {
+    background-color: #4caf50;
+    border-color: #4caf50;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+
+  .link-register {
+    color: #f57c00; // 橘色文字
+    text-decoration: none;
+    font-size: 0.9rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -9,9 +9,9 @@ export default defineConfig({
     // API 代理設定，解決 CORS 問題
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:8000', // 後端服務的地址
+        target: 'http://127.0.0.1:8000//', // 後端服務的地址
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''), // 將 /api 前綴移除
+        rewrite: (path) => path.replace(/^\/api/, '/api'), // 將 /api 前綴移除
       },
     },
   },
