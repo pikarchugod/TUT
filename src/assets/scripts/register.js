@@ -11,8 +11,6 @@
 //   .catch((err) => console.error(err));
 
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const registerForm = document.querySelector("#registerForm");
 
@@ -45,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       } catch (error) {
         console.error("註冊過程發生錯誤：", error);
-        alert("系統錯誤，請稍後再試！");
+        alert("已有帳號！");
       }
     });
   }

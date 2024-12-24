@@ -1,0 +1,40 @@
+.bg-warning {
+  background-color: #ffd966; /* 柔和的黃色 */
+  border-radius: 0.5rem; /* 圓角 */
+}
+
+#gold-amount {
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Hover 效果 */
+.btn:hover {
+  background-color: #ffd966; /* 柔和橘色 */
+  color: #fff;
+}
+
+/* 選中狀態 */
+.btn.active {
+  background-color: #ffa500; /* 深橘色 */
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直置中 */
+  align-items: center; /* 水平置中 */
+}
+
+.sprite {
+  background-size: auto; /* 保持背景圖片的原始大小 */
+  background-repeat: no-repeat; /* 防止背景圖片重複 */
+  width: 96px; /* 設置元素寬度，與單幀寬度一致 */
+  height: 96px; /* 設置元素高度，與單幀高度一致 */
+}
+

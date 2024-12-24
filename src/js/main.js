@@ -7,6 +7,18 @@ import { setupCounter } from '../assets/scripts/counter.js';
 //import "../assets/scripts/renderBooks.js";
 import "../assets/scripts/login.js";
 import "../assets/scripts/register.js";
+//import "../assets/scripts/shop.js";
+import "../assets/scripts/animation.js";
+import "../assets/scripts/shop2.js";
+
+import { initSprites } from "../assets/scripts/animation.js";
+//import { renderProducts } from '../assets/scripts/shop.js';
+
+document.addEventListener("DOMContentLoaded", () => {
+  initSprites();
+  // renderProducts('character');
+});
+
 
 fetch('/api/test')
   .then((response) => response.text())
@@ -27,5 +39,4 @@ document.addEventListener("DOMContentLoaded", () => {
       
   });
 });
-
 
